@@ -21,7 +21,7 @@
 
 }
 
-@media (width<=450px)
+@media (width<=480px)
 {
         .e-cards{
                 flex-direction: column;
