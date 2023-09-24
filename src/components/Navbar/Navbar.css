@@ -1,0 +1,51 @@
+.fontweight{
+        font-family: 'Jost', sans-serif;        font-weight: bold;
+}
+.hovering:hover{
+        background-color: rgb(192, 202, 211);
+        border-radius: 15px;
+        color: navy;
+}
+.fontweight > span{ 
+border-radius: 15px;
+}
+@media (width<=480px)
+{
+        .fontweight{
+                display: none;
+        }
+     .bardiv{
+        display: block;
+     }
+     .navimg{
+        margin-bottom: 2rem;
+     }
+
+}
+.bardiv{
+        display: none;
+}
+.nav-2{
+        width: 60%;
+        font-size: 20px;
+        /* margin-top: 3rem; */
+        margin: auto;
+   background-color: rgb(163, 163, 179);
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: center;
+   justify-content: center;
+   border-radius: 20px;
+}
+.nav-2>span:hover{
+        cursor: pointer;
+        color: white;
+}
+a{
+        color: black;
+        text-decoration: none;
+}
+.Nav{
+        margin: 1rem;
+}

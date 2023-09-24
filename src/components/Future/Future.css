@@ -1,0 +1,34 @@
+.future{
+        margin-top: 7%;
+}
+.future > h2{
+       font-size: 3rem;
+       font-weight: bold;
+}
+.f-topic{
+        gap:4rem;
+}
+.f-topic > h4:hover{
+        
+       text-decoration: underline;
+       text-decoration-color: red;
+
+ }
+ @media (width<=480px) {
+      .f-topic{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+      }
+      .future > h2{
+        font-size: 2rem;
+        font-weight: bold;
+        }
+        .future{
+                height: 100vh;
+        }
+        .icons{
+                width: 100%;
+        }
+ }

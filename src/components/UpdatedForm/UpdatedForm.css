@@ -1,0 +1,39 @@
+.grid{
+        display: grid;
+        grid-template-columns: 20% 5% ;
+        column-gap: 15rem;
+        row-gap: 3rem;
+        width: 70%;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        text-wrap: wrap;
+}
+.grid-parent{
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+        height: 100vh;
+        /* margin-top: 250px; */
+}
+.grid-head{
+        font-size: 2rem;
+        font-weight: bold;
+        color: navy;
+
+}
+.grid-head1{
+        font-size: 18px;
+        color: navy;
+}
+@media (width<=480px)
+{
+         .grid-parent{
+                transform: scale(0.7);
+                height: 80vh;
+         }
+}

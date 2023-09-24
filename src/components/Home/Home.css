@@ -1,0 +1,20 @@
+.height{
+        height: 100vh;
+        color: rgb(52, 52, 91);
+}
+.c-homeh2{
+        font-size: 3.5rem;
+        font-weight: bold;
+}
+.width{
+        width: 70%;
+
+}
+.c-home{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+}

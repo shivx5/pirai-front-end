@@ -1,0 +1,36 @@
+.servicePartners{
+        margin-top: 15%;
+        text-align: center;
+        color: navy;
+}
+.servicePartners >h2{
+        font-size: 3rem;
+
+}
+.s-images{
+        margin-top: 5rem;
+       width:100%;
+       /* flex-direction: column; */
+       align-items: center;
+       justify-content: center;
+       gap: 100px;
+       flex-wrap: wrap;
+}
+.s-images > img{
+        border: 2px solid rgb(190, 190, 190);
+        height: 250px;
+        width: 450px;
+        border-radius: 40px;
+}
+@media (width<=480px)
+{
+        .s-images{
+                transform: scale(0.7);
+                gap: 50px;
+                margin-top: -5rem;
+        }
+        .servicePartners{
+               margin-top: 50rem;
+               /* margin-top: 0; */
+        }
+}

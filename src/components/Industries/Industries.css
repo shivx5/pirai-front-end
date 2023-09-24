@@ -1,0 +1,104 @@
+.i-content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        text-align: center;
+}
+.i-content>h2{
+        color: navy;
+        font-size: 3rem;
+}
+.i-content>h4{
+        color: rgb(220, 47, 47);
+        font-weight: bold;
+}
+.industries{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+}
+.i-data-l{
+        font-size: 1.5rem;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        
+}
+.i-data-l >span{
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        color: navy;
+}
+.i-data{
+        border: 2px solid red;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+}
+.Cards4{
+        padding: 20px;
+        height: 100%;
+         width: 90%;
+         border: none;
+         
+}
+
+.i-data-l>span:hover{
+cursor: pointer;
+color:  rgb(220, 47, 47);
+}
+@media (width<=480px)
+{
+        .i-content{
+                text-align: justify;
+        }
+        .Cards4{
+                width: 110%;
+                gap: 20px;
+                align-items: center;
+        }
+        .i-data{
+                flex-direction: column;
+                width: 100%;
+                border: none;
+        }
+        .i-data-l{
+              flex-direction: row;
+              font-size: 1rem;
+              flex-wrap: wrap;
+              gap: 1rem;
+              width: 1005;
+        }
+         .i-data-l>span{
+              border: 1px solid navy;
+              padding: 5px;
+              border-radius: 30px;
+          }
+          .i-data-l>span:hover{
+                background-color: navy;
+                color: white;
+            }
+            .Cards4>.card-title{
+                display: none;
+                text-align: justify;
+        }
+        .Cards4>.card-body{
+                width: 100%;
+                text-align: justify;
+                border: 2px solid navy;
+                border-radius: 20px;
+        }
+       .industries{
+        margin-top: -6rem;
+       }
+
+}
