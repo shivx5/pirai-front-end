@@ -55,8 +55,9 @@ border: none;
                       
                         grid-template-columns: 1fr;
                         right: 0;
-                        margin-top: 21rem;
+                        margin-top: 28rem;
                         width: 100%;
+                        gap: 1rem;
                 }
                 .s-content{
                         width: 100%;
@@ -65,12 +66,13 @@ border: none;
                         /* align-items: center; */
                         justify-content: center;
                         margin-top: 0rem;
-                        transform: scale(0.9);
+                        background-color: white;
 
                 }
                 .Cards2{
                       
-                        width: 100%;     
+                        width: 100%;  
+                        margin-bottom: 5rem;   
                 
                 }
                 .Cards3{
@@ -79,5 +81,19 @@ border: none;
                 }
                 .services{
                         gap: 0rem;
+                        margin-bottom: 5rem;
                 }
+  
+        }
+
+        @media(width<=1200px)
+        {
+                .Cards2{
+                       transform: scale(0.9);
+                }
+                .Cards3{
+                         margin-top: 10px;
+                        transform: scale(0.9);
+                }
+             
         }

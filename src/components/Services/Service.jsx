@@ -20,10 +20,10 @@ export default function Service() {
                  {cards.map((value,index)=>
                         {
                  return <><Card title={value.title} desc={value.desc} btname="learn more  -&gt;" cname="Cards3" enablebutton={true}/></>
-      })}
+      })} 
       
-        </div>
-        </div>
+         </div>
+         </div>
       
      
        

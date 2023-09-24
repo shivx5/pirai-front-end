@@ -67,8 +67,8 @@ function toggleLogin()
       <Future/>
       <Industries/>
       <Slider/>
-     {enableform && <UpdateForm toggleUpdatedform={toggleUpdatedform}/>}
-     {updatedForm && <UpdatedForm/>}
+     {!enableform && <UpdateForm toggleUpdatedform={toggleUpdatedform}/>}
+     {!updatedForm && <UpdatedForm/>}
      <Footer/>
 
     </div>

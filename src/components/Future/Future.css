@@ -1,5 +1,5 @@
 .future{
-        margin-top: 7%;
+        margin-top: 10%;
 }
 .future > h2{
        font-size: 3rem;
@@ -27,6 +27,7 @@
         }
         .future{
                 height: 100vh;
+                margin-top: 10%;
         }
         .icons{
                 width: 100%;

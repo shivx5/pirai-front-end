@@ -18,3 +18,9 @@
         align-items: center;
         width: 70%;
 }
+@media(width<=480px)
+{
+        .home{
+                margin-bottom: 4rem;
+        }
+}
