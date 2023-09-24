@@ -51,4 +51,8 @@
         .Footer{
                 padding: 4%;
         }
+        .Footer>img{
+                height: 20px;
+                width: 70px;
+        }
 }
