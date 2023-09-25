@@ -45,16 +45,16 @@
 @media (width<=480px)
 {
         .footer-groups{
-                transform: scale(0.8);
-                align-items: center;
+                transform: scale(0.7);
+                padding: 3%;
+        }
+
+        .Footer>img{
+                align-self: center;
+                transform: scale(0.6);
+                
         }
         .Footer{
-               
-                padding: 4%;
-        }
-        .Footer>img{
-                transform: scale(0.7);
-                margin-top: 20px;
-                
+                gap: 0;
         }
 }

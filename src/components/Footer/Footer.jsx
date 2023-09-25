@@ -43,8 +43,12 @@ export default function Footer() {
       </div>
       <div className='icons'>
           <span>Follow Us on</span>
-         <img src={web} height='50px'></img>
-         <img src={mobile}></img>
+          <a href='https://piraiinfo.com/' target='_blank'>
+          <img src={web} height='50px'></img>
+          </a>
+          <a>
+          <img src={mobile}></img>
+          </a>
          <img src={mail}></img>
 
 
