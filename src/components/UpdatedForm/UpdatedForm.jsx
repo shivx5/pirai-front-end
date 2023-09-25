@@ -3,24 +3,19 @@ import React, { useEffect, useState } from 'react'
 import './UpdatedForm.css'
 export default function UpdatedForm() {
         const[UpdatedForm,setUpdatedForm]=useState([]);
-        const dbResult=[];
         useEffect(()=>
         {
                 axios.get('/getupdatedUser').then((res)=>
                 {
                      
-                        console.log(res.data);
-                        dbResult.push(res.data);
+               
                         setUpdatedForm(res.data)
                 }).catch((err)=>
                 {
                   console.log(err);
                 })
         },[])
-        console.log(dbResult)
-        console.log(UpdatedForm)
-        console.log(UpdatedForm.country);
-        console.log("updated");
+       
   return (
     <div className='grid-parent 'id='updatedform'>
       <span className='grid-head'>Updated Details</span>

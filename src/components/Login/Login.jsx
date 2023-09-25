@@ -35,7 +35,7 @@ export default function Login(props) {
   function submitSignUpform(event)
   {
           event.preventDefault();
-          console.log(SignupDetails);
+          // console.log(SignupDetails);
 
 
         axios.post("http://localhost:8083/save",SignupDetails).then((res)=>
@@ -73,7 +73,7 @@ export default function Login(props) {
         function submitLoginform(event)
         {
                 event.preventDefault();
-                console.log(logindetails);
+                // console.log(logindetails);
                 toggleLoader();
 
               axios.post("/login",logindetails).then((res)=>

@@ -19,7 +19,6 @@ export default function UpdateForm(props) {
         function submitForm(event)
         {
                 event.preventDefault();
-                console.log(updateDetails)
                 axios.post('/updateUser',updateDetails).then((res)=>
                 {
                         if(res.data=="updated")

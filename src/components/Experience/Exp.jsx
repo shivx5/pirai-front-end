@@ -20,7 +20,7 @@ export default function Exp() {
        <div className='e-cards justify-content-center mt-10 gap-5'>
         {cards.map((values,index)=>
         {
-                return <><Card title={values.title} desc={values.desc} cname="Cards" enablebutton={false} icon={values.icon}/></>
+                return <><Card key={index}  title={values.title} desc={values.desc} cname="Cards" enablebutton={false} icon={values.icon}/></>
         })}
 
        </div>

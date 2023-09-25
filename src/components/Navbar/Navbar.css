@@ -47,5 +47,6 @@ a{
         text-decoration: none;
 }
 .Nav{
-        margin: 1rem;
+        /* margin: 1rem; */
+        margin: 10px;
 }

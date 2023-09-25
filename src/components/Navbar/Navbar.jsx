@@ -5,14 +5,14 @@ import pirai from '../../assests/pirai.png'
 export default function Navbar(props) {
   const[enable,setEnable]=useState(false);
   return (
-     <div className='container Nav'>
+     <div className=' Nav'>
 
       <div className=' d-flex justify-content-between pt-10 ml-0'>
          <div onClick={()=>{setEnable(!enable)}}>
              <img className='navimg' src={pirai}></img>
          </div>
 
-        <div className='d-flex gap-5 text-primary fontweight nav-1'>
+        <div className='d-flex gap-5 text-primary fontweight align-items-end nav-1 ml-5'>
           <span className='btn hovering fontweight'>Home</span>
           <span  className='btn hovering fontweight' onClick={()=>{props.toggleLogin()}}>Login</span>
           {props.enableform && <a href='#update'>
